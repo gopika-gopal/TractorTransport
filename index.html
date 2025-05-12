@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tractortransport.com</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <!-- Dummy data -->
+  <style>
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    .hero {
+      padding-top: 0;
+      margin-top: 0;
+    }
+
+    .hero img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-top: 0;
+    }
+
+    header {
+      position: relative;
+      z-index: 10;
+      background-color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        padding-top: 66px;
+      }
+    }
+  </style>
+  <!-- ******** -->
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-container">
+
+      <div class="menu-toggle" id="barToggle">
+        <div class="menu-icon show" id="menuToggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+
+      <div class="logo">
+        <img src="Images/Group 3.png" alt="Tractor Transport" />
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li>
+            <a href="#">
+              Services
+              <span class="dropdown-icon"><i class="fas fa-chevron-down"></i></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Transports
+              <span class="dropdown-icon"><i class="fas fa-chevron-down"></i></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              States We Serve
+              <span class="dropdown-icon"><i class="fas fa-chevron-down"></i></span>
+            </a>
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="buttons">
+        <button class="quote-btn">Start Quote</button>
+        <button class="call-btn"><i class="fas fa-phone"></i> (877) 373-0109</button>
+      </div>
+
+      <div class="call-icon">
+        <i class="fas fa-phone"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-top">
+      <div class="mobile-logo">
+        <img src="Images/Group 3.png" alt="Tractor Transport" />
+      </div>
+      <div class="close-icon show" id="closeToggle">
+        <i class="fas fa-times"></i>
+      </div>
+    </div>
+
+    <ul class="mobile-nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li>
+        <div class="service-toggle">
+          Services
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </div>
+      </li>
+
+      <li>
+        <div class="transport-toggle">
+          Transports
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </div>
+      </li>
+
+      <li>
+        <div class="states-toggle">
+          States To State Shipping
+          <span class="dropdown-icon"><i class="fas fa-chevron-right"></i></span>
+        </div>
+      </li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+
+    <!-- SERVICES -->
+    <section id="servicesPage" class="services-page-wrapper"
+      style="display: none; background-color: black; color: white;">
+      <div class="states-header">
+        <a href="#" id="backToMobileNav" style="color: white;">
+          <i class="fas fa-chevron-left"></i>
+        </a>
+        <h2 class="states-title">Services</h2>
+      </div>
+
+
+      <div class="grid-container">
+        <div class="grid-item grid-item-1">
+          <h3>Tractor Hauling</h3>
+          <p>Transport Your Tractor Nationwide With Tractor Transport. We Ship Heavy And Oversized Tractors...</p>
+        </div>
+
+        <div class="grid-item">
+          <h3>Trailer Shipping</h3>
+          <p>We Offer The Best Trailer To Ship Your Farm Equipment From Flatbeds, RGNs, Step Decks, And More...</p>
+        </div>
+
+        <div class="grid-item">
+          <h3>Farming and Agriculture Transport</h3>
+          <p>Tractor Transport Offers Custom Farming And Agriculture Equipment Transport Solutions...</p>
+        </div>
+
+        <div class="grid-item">
+          <h3>Dispatching Services</h3>
+          <p>Your Load Is Dispatched By A Dedicated Transport Agent Who Finds The Best Truck, Driver, And Trailer To
+            Haul...</p>
+        </div>
+      </div>
+
+      <!-- Explore All Services Button -->
+      <div class="explore-button-container">
+        <a href="#" class="explore-button">
+          Explore All Services
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- TRANSPORT -->
+    <section id="transportPage" class="services-page-wrapper"
+      style="display: none; background-color: black; color: white;">
+      <div class="states-header">
+        <a href="#" id="backToTransportNav" style="color: white;">
+          <i class="fas fa-chevron-left"></i>
+        </a>
+        <h2 class="states-title">Transports</h2>
+      </div>
+
+
+      <div class="grid-container">
+        <div class="grid-item grid-item-1">
+          <h3>Tractor Transport</h3>
+          <p>Tractors are low-speed, high traction vehicles used by farmers for a variety of tasks. Tractor Transport is
+            the...</p>
+        </div>
+
+        <div class="grid-item">
+          <h3>Combine Hauling</h3>
+          <p>A combine, also known as a combine harvester, is intended to help harvest various crops on the farm...</p>
+        </div>
+
+        <div class="grid-item">
+          <h3>Cotton Picker Transport</h3>
+          <p>Tractor Transport offers custom farming and agriculture equipment transport solutions...</p>
+        </div>
+
+        <div class="grid-item">
+          <h3>Mower Transport</h3>
+          <p>Mowers come in a variety of types, shapes, and sizes. They are used for lawn and field maintenance...</p>
+        </div>
+      </div>
+
+      <div class="explore-button-container">
+        <a href="#" class="explore-button">
+          Explore All Transport
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </section>
+
+
+    <!-- STATES WE SERVE -->
+    <section id="statesWeServePage" class="states-wrapper"
+      style="display: none; background-color: black; color: white;">
+
+      <div class="states-header">
+        <a href="#" id="backToStatesNav" style="color: white;">
+          <i class="fas fa-chevron-left"></i>
+        </a>
+        <h2 class="states-title">State Shipping</h2>
+      </div>
+
+      <div class="states-grid">
+        <div class="state-box">
+          <h3>Alabama</h3>
+        </div>
+        <div class="state-box">
+          <h3>California </h3>
+        </div>
+        <div class="state-box">
+          <h3>Florida</h3>
+        </div>
+        <div class="state-box">
+          <h3>Illinois</h3>
+        </div>
+        <div class="state-box">
+          <h3>Kentucky</h3>
+        </div>
+        <div class="state-box">
+          <h3>Massachusetts</h3>
+        </div>
+        <div class="state-box">
+          <h3>{OtherStates}</h3>
+        </div>
+        <div class="state-box">
+          <h3>{OtherStates}</h3>
+        </div>
+        <div class="state-box">
+          <h3>{OtherStates}</h3>
+        </div>
+        <div class="state-box">
+          <h3>{OtherStates}</h3>
+        </div>
+        <div class="state-box">
+          <h3>{OtherStates}</h3>
+        </div>
+        <div class="state-box">
+          <h3>{OtherStates}</h3>
+        </div>
+      </div>
+
+      <!-- Google Map dummy data -->
+      <div class="states-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="250"
+          style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+      <div class="explore-button-container">
+        <a href="#" class="explore-button">
+          Explore All States
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+    </section>
+    <div class="buttons mobile-buttons">
+      <button class="quote-btn mobile-button">Start Quote</button>
+      <button class="call-btn mobile-button"><i class="fas fa-phone"></i> (877) 373-0109</button>
+    </div>
+  </nav>
+
+  <!-- Dummy Content Sections -->
+  <section class="hero" style="display: block; width: 100%;">
+    <!-- Hero Image -->
+    <img
+      src="https://img.freepik.com/free-photo/tractor-agricultural-machine-working-field_342744-499.jpg?ga=GA1.1.2115210507.1711006710&semt=ais_hybrid&w=740"
+      alt="Hero Image" style="width: 100%; height: auto; display: block;" />
+
+    <!-- Dummy Text Content -->
+    <div
+      style="margin-top: 20px; padding: 0 20px; max-width: 900px; margin-left: auto; margin-right: auto; text-align: center;">
+      <h2 style="font-size: 2rem; font-weight: 600; margin-bottom: 10px;">
+        Lorem ipsum dolor sit, amet consectetur adipisicing </h2>
+      <p style="font-size: 1rem; color: #444; line-height: 1.6;">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae perferendis optio commodi vitae
+        consequatur accusantium doloribus sunt, eaque excepturi aliquam fugit pariatur nam esse error non in odio
+        laudantium delectus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate explicabo nisi a nam impedit non, veniam id
+        vel provident reprehenderit aliquid modi alias. Voluptas temporibus excepturi labore rerum voluptatem nihil.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate explicabo nisi a nam impedit non, veniam id
+        vel provident reprehenderit aliquid modi alias. Voluptas temporibus excepturi labore rerum voluptatem nihil.
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate explicabo nisi a nam impedit non, veniam id
+        vel provident reprehenderit aliquid modi alias. Voluptas temporibus excepturi labore rerum voluptatem nihil.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate explicabo nisi a nam impedit non, veniam id
+        vel provident reprehenderit aliquid modi alias. Voluptas temporibus excepturi labore rerum voluptatem nihil.
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate explicabo nisi a nam impedit non, veniam id
+        vel provident reprehenderit aliquid modi alias. Voluptas temporibus excepturi labore rerum voluptatem nihil.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate explicabo nisi a nam impedit non, veniam id
+        vel provident reprehenderit aliquid modi alias. Voluptas temporibus excepturi labore rerum voluptatem nihil.
+      </p>
+    </div>
+  </section>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
